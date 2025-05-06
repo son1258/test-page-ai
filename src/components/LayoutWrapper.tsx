@@ -21,11 +21,11 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
 
 
     return (
-        <div className='h-full'>
+        <div className='h-full scroll-smooth'>
             <div ref={navRef} className="fixed top-0 w-full z-10">
                 <NavBar />
             </div>
-            <main style={{ paddingTop: `${navHeight}px` }}>
+            <main style={{ paddingTop: `${navHeight}px` }} className="scroll-smooth">
                 {children}
             </main>
         </div>
