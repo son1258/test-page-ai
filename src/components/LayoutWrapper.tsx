@@ -30,7 +30,7 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
                 overflowY: 'auto', // Cho phép cuộn dọc
                 WebkitOverflowScrolling: 'touch', // Cải thiện cuộn trên iOS
                 touchAction: 'pan-y', // Chỉ cho phép cuộn dọc
-                height: `calc(100vh - ${navHeight}px)` // Đảm bảo main chiếm toàn bộ chiều cao còn lại
+                height: `auto` // Đảm bảo main chiếm toàn bộ chiều cao còn lại
             }}
                 className="scroll-smooth"
             >
