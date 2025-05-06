@@ -261,7 +261,7 @@ export default function HomePage() {
                             </div>
                             <div className="px-3 mt-[-50px]">
                                 <div className="max-w-[1071px]">
-                                    <img src="/logos/logo-ai.png" className="h-[auto] w-full" />
+                                    <img src="/logos/logo-ai.png" loading="lazy" className="h-[auto] w-full" />
                                 </div>
                                 <div className="text-center text-[#b34cef] font-[700] text-custom-22 leading-custom-33 md:text-custom-28 md:leading-custom-42
                                     screen-992:text-custom-32 px-3 py-custom-4.8 screen-992:leading-custom-48">{translate('name_ai_agent')}</div>

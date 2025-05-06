@@ -25,6 +25,7 @@
 html, body {
     overflow: auto;
     scrollbar-width: none;
+    overscroll-behavior: auto;
     line-height: initial;
 }
 
