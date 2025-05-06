@@ -84,7 +84,7 @@ export default function NavBar() {
                         <button className="absolute right-[10px] top-[10px] px-custom-6 py-custom-1 text-2xl leading-custom-18" onClick={handleCloseBtn}>×</button>
                     </div>
                 )}
-                <div className="relative screen-1600:px-custom-88 screen-1400:px-5 screen-1200:px-3 screen-992:py-0 screen-576:px-5 py-custom-15 px-0 w-full leading-custom-21 border-b-[0.25px] border-[#dbdee9] shadow-nav-shadow bg-white">
+                <div className="relative screen-1600:px-custom-88 screen-1400:px-5 screen-1200:px-3 screen-992:py-0 screen-576:px-5 py-custom-15 px-0 w-full leading-custom-21 border-b-[0.25px] border-[#dbdee9] shadow-nav-shadow bg-white!">
                     <div className="w-full px-3 flex items-center justify-between">
                         <div>
                             <div className="w-full flex flex-row items-center justify-center h-[31px]">
