@@ -27,10 +27,10 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
             </div>
             <main style={{
                 paddingTop: `${navHeight}px`,
-                overflowY: 'auto', // Cho phép cuộn dọc
-                WebkitOverflowScrolling: 'touch', // Cải thiện cuộn trên iOS
-                touchAction: 'pan-y', // Chỉ cho phép cuộn dọc
-                height: `auto` // Đảm bảo main chiếm toàn bộ chiều cao còn lại
+                overflowY: 'auto',
+                WebkitOverflowScrolling: 'touch',
+                touchAction: 'pan-y',
+                height: '100vh'
             }}
                 className="scroll-smooth"
             >
