@@ -78,7 +78,7 @@ export default function NavBar() {
             <div>
                 {visible && (
                     <div className="h-custom-60 md:h-auto relative px-3 w-full leading-custom-18 bg-[#1a1a1a] text-white text-center py-3 md:py-custom-13 screen-992:py-custom-14">
-                        <div className="font-[500] !leading-custom-18 text-custom-10 screen-425:text-xs md:text-sm screen-992:text-xs screen-1120:text-sm w-[98%] text-center flex items-center justify-center mr-custom-24">
+                        <div className="font-[500] !leading-custom-18 text-custom-10 screen-425:text-xs md:text-sm screen-992:text-xs screen-1120:text-sm text-center flex items-center justify-center mr-custom-24">
                             <p>{ItemsNav[index].text} <span className="!leading-custom-18 ml-custom-14 font-[700] text-[#cf6cfb] underline md:text-sm text:xs">{ItemsNav[index].more}</span></p>
                         </div>
                         <button className="absolute right-[10px] top-[10px] px-custom-6 py-custom-1 text-2xl leading-custom-18" onClick={handleCloseBtn}>×</button>
